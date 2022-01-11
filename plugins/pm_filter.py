@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('○ Creator', url='https://t.me/benchamin_bruno'),
+                    InlineKeyboardButton('○ Source Code', url='https://github.com/amalbenny05/Media-Search-bot')
                 ]
                 ]
-            await query.message.edit(text="Source Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="○ Source Code : <a href='https://github.com/amalbenny05/Media-Search-bot'>Click here</a>\n○ Creator : <a href='https://t.me/benchamin_bruno'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -313,7 +313,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
+                        InlineKeyboardButton('Channel', url='https://t.me/subin_works/122'),
                         InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
                     ]
                     ]
